@@ -154,3 +154,88 @@ body {
     }
 
 }
+
+
+@media (max-width: 770px) {
+    .container {
+        display: flex;
+
+        .wrapper1 {
+            display: none;
+        }
+
+        .wrapper2 {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        display: flex;
+
+        .wrapper1 {
+            display: none;
+        }
+
+        .wrapper2 {
+            max-width: 100%;
+
+            .textfields {
+
+                .inputContainer {
+                    width: 270px;
+                    .inputButton {
+
+                    }
+
+                    .inputBox {
+                        height: 30px;
+                        font-size: 14px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 340px) {
+    .container {
+        display: flex;
+
+        .wrapper1 {
+            display: none;
+        }
+
+        .wrapper2 {
+            max-width: 100%;
+
+            h1 {
+                font-size: 35px;
+            }
+
+            .registerContainer {
+                p {
+                    font-size: 12px;
+                }
+            }
+            .inputButton {
+                font-size: 12px;
+                padding: 8px 28px;
+            }
+            .textfields {
+
+                .inputContainer {
+                    width: 180px;
+
+                    .inputBox {
+                        font-size: 13px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
