@@ -24,6 +24,7 @@ body {
 
     }
 
+
     .wrapper2 {
         max-width: 50%;
         margin: 0 auto;
@@ -50,6 +51,7 @@ body {
                 flex-direction: row;
                 gap: 7px;
             }
+
             .inputContainers {
                 display: flex;
                 flex-direction: column;
@@ -65,7 +67,7 @@ body {
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: center;
-                width: 300px;
+                width: 350px;
 
                 .errorLabel {
                     color: red;
@@ -85,7 +87,7 @@ body {
                     align-self: center;
                     font-size: 14px;
                     padding: 12px 32px;
-                    border: 1px solid  #0E2D8B;
+                    border: 1px solid #0E2D8B;
                     border-radius: 4px;
                     transition: all 0.4s ease-in-out 0s;
                     background-color: #0E2D8B;
@@ -96,40 +98,42 @@ body {
                     font-weight: bold;
 
                     &:hover {
-                        border: 1.5px solid  #0E2D8B;
+                        border: 1.5px solid #0E2D8B;
                         background-color: white;
                         color: #0E2D8B;
                         font-weight: 600;
                     }
                 }
 
-                
+
             }
 
         }
+
         .registerContainer {
             p {
                 color: #001B2B;
-              a {
-                
-                color: #0E2D8B;
 
-                font-weight: 500;
-                transition: 0.2s ease-in-out 0s;
-      
-                &:hover {
-                    color: #db1e32;
+                a {
 
+                    color: #0E2D8B;
+
+                    font-weight: 500;
+                    transition: 0.2s ease-in-out 0s;
+
+                    &:hover {
+                        color: #db1e32;
+
+                    }
                 }
-              }
             }
-          }
+        }
 
-          .inputButton {
+        .inputButton {
             align-self: center;
             font-size: 14px;
             padding: 12px 32px;
-            border: 1px solid  #0E2D8B;
+            border: 1px solid #0E2D8B;
             border-radius: 4px;
             transition: all 0.4s ease-in-out 0s;
             background-color: #0E2D8B;
@@ -140,7 +144,7 @@ body {
             font-weight: bold;
 
             &:hover {
-                border: 1.5px solid  #0E2D8B;
+                border: 1.5px solid #0E2D8B;
                 background-color: white;
                 color: #0E2D8B;
                 font-weight: 600;
